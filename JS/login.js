@@ -9,7 +9,7 @@ document.getElementById('btn-login')
 
         if(phoneNumber === '017' && pinNumber === '1234'){
             console.log('youre are loged in')
-            window.location.href = '/home.html'
+            window.location.href = './home.html'
         }
         else{
             alert('wrong phone number or pin')
